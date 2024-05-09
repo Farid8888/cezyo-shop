@@ -1,0 +1,12 @@
+.rec{
+    padding-inline: 50px;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+    margin-top: 40px;
+    width: 80%;
+}

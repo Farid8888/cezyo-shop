@@ -1,0 +1,55 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 214px;
+    gap:10px;
+}
+
+.imgAbs img{
+width: 184px;
+height: 154px;
+padding: 2px 20px;
+}
+
+.minPrice{
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: rgba(41, 103, 255, 1);
+
+}
+
+.maxPrice{
+    display: flex;
+    gap:30px
+}
+
+.maxPrice span:first-child{
+text-decoration:line-through;
+color:rgba(141, 141, 142, 1)
+}
+
+.maxPrice span:last-child{
+    font-size: 14px;
+    font-weight: 600;
+    color:rgba(255, 45, 135, 1)
+}
+
+.product button{
+    border:1px solid rgba(41, 103, 255, 1);
+    color: rgba(41, 103, 255, 1);
+    background-color: inherit;
+    border-radius: 26px;
+}
+
+.product button:hover{
+background-color: rgba(184, 197, 209, 0.71);
+}
+
+.arr{
+    display: flex;
+    flex-direction: column;
+    gap:3px
+}

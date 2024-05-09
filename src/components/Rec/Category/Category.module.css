@@ -1,0 +1,22 @@
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 772px;
+    gap:15px
+}
+
+.top{
+    display: flex; 
+    gap:107px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top span{
+font-size: 12px;
+font-weight: 600;
+line-height: 15.32px;
+text-align: center;
+padding-top: 8px;
+color: rgba(41, 103, 255, 1);
+}
